@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings= ['openzeppelin-contracts-06/=lib/openzeppelin-contracts-06/contracts/', '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/']
+[rpc_endpoints]
+sepolia="wss://ethereum-sepolia.publicnode.com"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
